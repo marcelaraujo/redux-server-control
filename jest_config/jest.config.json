@@ -1,0 +1,22 @@
+{
+    "moduleFileExtensions": ["js", "jsx"],
+    "testPathIgnorePatterns": ["<rootDir>/common/config"],
+    "setupFiles": ["<rootDir>/jest_config/setupJest.js"],
+    "automock": false,
+    "moduleNameMapper": {
+        "^actions$": "<rootDir>/common/actions",
+        "^actions/common$": "<rootDir>/common/actions/common",
+        "^actions/dashboard$": "<rootDir>/common/actions/dashboard",
+        "^actions/layout$": "<rootDir>/common/actions/layout",
+
+        "^reducers$": "<rootDir>/common/reducers",
+        "^reducers/common$": "<rootDir>/common/reducers/common",
+        "^reducers/dashboard$": "<rootDir>/common/reducers/dashboard",
+        "^reducers/layout$": "<rootDir>/common/reducers/layout",
+
+        "^routing": "<rootDir>/common/routing",
+        "^components$": "<rootDir>/common/components",
+        "^containers$": "<rootDir>/common/containers",
+        "^config$": "<rootDir>/common/config/test.js"
+    }
+}
