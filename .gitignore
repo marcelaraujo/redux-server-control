@@ -2,7 +2,6 @@
 logs
 *.log
 npm-debug.log*
-
 # Build
 dist
 
@@ -10,6 +9,7 @@ dist
 pids
 *.pid
 *.seed
+
 # Python venv
 venv
 
